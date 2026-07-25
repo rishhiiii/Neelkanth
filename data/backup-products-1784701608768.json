@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "6a589d8cbd62e432d1dc285a",
+    "name": "Ashwagandha Tablets",
+    "sku": "ASH-TAB-60",
+    "shortDescription": "Premium Ashwagandha for stress relief",
+    "description": "High-quality Ashwagandha root extract tablets",
+    "ingredients": [
+      {
+        "name": "Ashwagandha Root Extract",
+        "quantity": "500mg"
+      }
+    ],
+    "dosage": "1-2 tablets daily",
+    "directions": "Take with warm milk",
+    "benefits": [
+      "Reduces stress",
+      "Boosts immunity"
+    ],
+    "indications": [
+      "Stress",
+      "Fatigue"
+    ],
+    "precautions": "Consult doctor if pregnant",
+    "category": "6a589d79bd62e432d1dc284f",
+    "healthTags": [
+      "6a589d7abd62e432d1dc2852"
+    ],
+    "packSize": "60 tablets",
+    "form": "tablet",
+    "price": 350,
+    "stock": 100,
+    "lowStockThreshold": 5,
+    "hsnCode": "30049011",
+    "gstRate": 12,
+    "isFeatured": true,
+    "status": "active",
+    "images": [],
+    "slug": "ashwagandha-tablets",
+    "createdAt": "2026-07-16T08:59:56.388Z",
+    "updatedAt": "2026-07-16T09:06:34.265Z",
+    "__v": 0
+  }
+]

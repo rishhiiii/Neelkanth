@@ -1,0 +1,240 @@
+.auth {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1.5rem;
+  background: var(--band);
+}
+
+.auth__card {
+  width: 100%;
+  max-width: 440px;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 3rem 2.5rem;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.06);
+}
+
+.auth__logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.auth__logo svg {
+  padding: 6px;
+  background: rgba(27, 67, 50, 0.1);
+  border-radius: 6px;
+  width: 36px;
+  height: 36px;
+}
+
+.auth__card h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 0.3rem;
+}
+
+.auth__sub {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+/* ---------- Form fields ---------- */
+.auth__field {
+  margin-bottom: 1.25rem;
+}
+
+.auth__label {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--dark);
+  margin-bottom: 0.4rem;
+  letter-spacing: 0.02em;
+}
+
+.auth__input {
+  display: block;
+  width: 100%;
+  padding: 0.72rem 1rem;
+  border: 1.5px solid var(--line);
+  border-radius: 4px;
+  font-size: 0.92rem;
+  font-family: inherit;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  background: var(--bg);
+  color: var(--dark);
+}
+
+.auth__input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(27, 67, 50, 0.12);
+}
+
+.auth__input::placeholder {
+  color: var(--muted);
+}
+
+/* ---------- OTP input ---------- */
+.auth__otp-input {
+  display: block;
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border: 1.5px solid var(--line);
+  border-radius: 4px;
+  font-size: 1.8rem;
+  font-family: inherit;
+  font-weight: 600;
+  letter-spacing: 0.8em;
+  text-align: center;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  background: var(--bg);
+  color: var(--dark);
+}
+
+.auth__otp-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(27, 67, 50, 0.12);
+}
+
+/* ---------- Actions ---------- */
+.auth__forgot {
+  font-size: 0.82rem;
+  color: var(--accent);
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.auth__forgot:hover {
+  text-decoration: underline;
+}
+
+.auth__btn {
+  width: 100%;
+  padding: 0.8rem;
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.15s;
+  font-family: inherit;
+}
+
+.auth__btn:hover {
+  background: var(--accent-dark);
+  transform: translateY(-1px);
+}
+
+.auth__btn:active {
+  transform: translateY(0);
+}
+
+.auth__btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.auth__switch {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+.auth__switch a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.auth__switch a:hover {
+  text-decoration: underline;
+}
+
+.auth__link {
+  background: none;
+  border: none;
+  color: var(--accent);
+  cursor: pointer;
+  font-size: 0.88rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-family: inherit;
+}
+
+.auth__link:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Divider ---------- */
+.auth__divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.auth__divider::before,
+.auth__divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--line);
+}
+
+/* ---------- Trust badges ---------- */
+.auth__trust {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+}
+
+.auth__trust-item {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.auth__trust-item svg {
+  color: var(--accent);
+}
+
+@media (max-width: 480px) {
+  .auth__card {
+    padding: 2rem 1.5rem;
+    border-radius: 6px;
+  }
+  .auth__trust {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}

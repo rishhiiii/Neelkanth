@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Primary — deep forest green */
+  --primary: #1b4332;
+  --primary-dark: #012d1d;
+  --primary-light: #2d6a4f;
+
+  /* Surface — warm cream */
+  --surface: #fcf9f4;
+  --surface-alt: #f3ede4;
+  --surface-dark: #e8e0d4;
+
+  /* Accent — warm amber */
+  --amber: #7c5730;
+  --amber-light: #fdcb9b;
+
+  /* Neutrals */
+  --dark: #1a1a1a;
+  --text: #4a4a4a;
+  --muted: #8a8a8a;
+  --line: #e0dbd3;
+  --bg: #ffffff;
+
+  /* Legacy aliases (keeps other pages working) */
+  --accent: #1b4332;
+  --accent-dark: #012d1d;
+  --band: #fcf9f4;
+  --band-soft: #f8f5ef;
+  --sale: #b5443a;
+  --new: #1b4332;
+  --star: #c9a84c;
+
+  /* Layout */
+  --max-w: 1800px;
+
+  /* Fonts */
+  --font-serif: 'DM Serif Display', Georgia, 'Times New Roman', serif;
+  --font-body: 'Plus Jakarta Sans', 'Segoe UI', Tahoma, sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--surface);
+  color: var(--text);
+  line-height: 1.6;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  color: var(--dark);
+  letter-spacing: -0.01em;
+}

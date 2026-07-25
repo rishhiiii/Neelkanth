@@ -1,0 +1,75 @@
+/* ---------- Products page hero banner ---------- */
+.products-page {
+  padding-bottom: 4rem;
+}
+
+.products-page__hero {
+  background: var(--band);
+  padding: 3rem 0 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.products-page__hero-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.products-page__breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.products-page__breadcrumb a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.products-page__breadcrumb a:hover {
+  color: var(--accent);
+}
+
+.products-page__hero h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 0.5rem;
+}
+
+.products-page__hero p {
+  font-size: 0.95rem;
+  color: var(--muted);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.products__page-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+}
+
+/* Override products section padding for the page layout */
+.products-page .products__wrap {
+  padding-top: 0;
+}
+
+@media (max-width: 640px) {
+  .products-page__hero {
+    padding: 2rem 0 1.5rem;
+  }
+  .products-page__hero h1 {
+    font-size: 1.5rem;
+  }
+}

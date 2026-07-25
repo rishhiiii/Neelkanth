@@ -1,0 +1,198 @@
+[
+  {
+    "_id": "6a6062b46afc65a9a33ba036",
+    "name": "Neelkanth Swarnaprashan",
+    "sku": "NGW021",
+    "shortDescription": "Ayurvedic gold-based immunity booster for children aged 0-16 years",
+    "description": "**Image:** swarnaprashan.jpg | **SKU:** NGW021\n\n**Benefits:**\n- Supports immunity naturally\n- Supports memory and concentration improvement\n- Supports physical and mental growth\n- Supports protection from cold and cough\n- Supports healthy and active kids\n\n**Key Ingredients:** Made with 100% Pure and Natural Gold Powder (Swarn Bhasma), Honey & Ayurvedic Herbs\n\n**Features:** Pure Ayurvedic, Safe & Natural, No Added Chemicals, Suitable for 0-16 years children\n\n**Dosage:** As directed on pack\n\n**Pack:** 1 Bottle | **MRP:** ₹499\n\n**Certifications:** GMP\n\n**Manufacturer:** Neelkanth Global Wellness Pvt. Ltd.\n\n---",
+    "ingredients": [],
+    "dosage": "As directed on pack",
+    "directions": "",
+    "benefits": [
+      "Supports immunity naturally",
+      "Supports memory and concentration improvement",
+      "Supports physical and mental growth",
+      "Supports protection from cold and cough",
+      "Supports healthy and active kids"
+    ],
+    "indications": [
+      "Immunity",
+      "Child health"
+    ],
+    "precautions": "",
+    "category": "6a6062ad6afc65a9a33b9fd0",
+    "healthTags": [
+      "6a6062ad6afc65a9a33b9fd6",
+      "6a6062b46afc65a9a33ba033"
+    ],
+    "packSize": "1 Bottle",
+    "form": "other",
+    "price": 499,
+    "stock": 0,
+    "lowStockThreshold": 5,
+    "hsnCode": "3004",
+    "gstRate": 12,
+    "isFeatured": false,
+    "status": "active",
+    "images": [],
+    "slug": "neelkanth-swarnaprashan",
+    "createdAt": "2026-07-22T06:27:00.582Z",
+    "updatedAt": "2026-07-22T06:27:00.582Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a6062b66afc65a9a33ba054",
+    "name": "Neelkanth Oil",
+    "sku": "NGW006",
+    "shortDescription": "Ayurvedic pain relief oil with deep penetration formula",
+    "description": "**Image:** neelkanth-oil.jpg | **SKU:** NGW006\n\n**Benefits:**\n- Deep penetration formula\n- Supports instant pain relief\n- Ayurvedic & natural ingredients\n- Trusted & safe formulation\n- Supports joint pain relief\n- Supports knee pain relief\n- Supports muscle stiffness relief\n- Supports sciatica relief\n- Supports arthritis management\n- Supports sprain and injury relief\n\n**Key Ingredients:**\n- Til Oil\n- Kuchala\n- Harsingar\n- Nirgundi\n- Ashwagandha\n- Bala\n- Shatavari\n- Dashamool\n- Rasna\n- Devdaru\n- Manjistha\n- Haldi\n- Rock Salt\n- Camphor\n\n**Features:** 100% Ayurvedic & Safe, FOR EXTERNAL USE\n\n**Directions:** Apply on affected area, massage gently for 5-10 minutes. Use twice daily - morning and night.\n\n**Pack:** 50ml | **MRP:** ₹250\n\n**Certifications:** AYUSH\n\n---",
+    "ingredients": [
+      {
+        "name": "Til Oil"
+      },
+      {
+        "name": "Kuchala"
+      },
+      {
+        "name": "Harsingar"
+      },
+      {
+        "name": "Nirgundi"
+      },
+      {
+        "name": "Ashwagandha"
+      },
+      {
+        "name": "Bala"
+      },
+      {
+        "name": "Shatavari"
+      },
+      {
+        "name": "Dashamool"
+      },
+      {
+        "name": "Rasna"
+      },
+      {
+        "name": "Devdaru"
+      },
+      {
+        "name": "Manjistha"
+      },
+      {
+        "name": "Haldi"
+      },
+      {
+        "name": "Rock Salt"
+      },
+      {
+        "name": "Camphor"
+      }
+    ],
+    "dosage": "",
+    "directions": "Apply on affected area, massage gently for 5-10 minutes. Use twice daily - morning and night.",
+    "benefits": [
+      "Deep penetration formula",
+      "Supports instant pain relief",
+      "Ayurvedic & natural ingredients",
+      "Trusted & safe formulation",
+      "Supports joint pain relief",
+      "Supports knee pain relief",
+      "Supports muscle stiffness relief",
+      "Supports sciatica relief",
+      "Supports arthritis management",
+      "Supports sprain and injury relief"
+    ],
+    "indications": [
+      "Joint pain",
+      "Muscle pain",
+      "Sciatica",
+      "Arthritis"
+    ],
+    "precautions": "",
+    "category": "6a6062b16afc65a9a33ba009",
+    "healthTags": [
+      "6a6062b16afc65a9a33ba00c",
+      "6a6062b16afc65a9a33ba00f",
+      "6a6062b56afc65a9a33ba042",
+      "6a6062b46afc65a9a33ba03c"
+    ],
+    "packSize": "50ml",
+    "form": "oil",
+    "price": 250,
+    "stock": 0,
+    "lowStockThreshold": 5,
+    "hsnCode": "3004",
+    "gstRate": 12,
+    "isFeatured": false,
+    "status": "active",
+    "images": [],
+    "slug": "neelkanth-oil",
+    "createdAt": "2026-07-22T06:27:02.244Z",
+    "updatedAt": "2026-07-22T06:27:02.244Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a6062b66afc65a9a33ba05a",
+    "name": "Neelkanth Herbal Potli",
+    "sku": "NGW022",
+    "shortDescription": "Traditional Ayurvedic herbal compress therapy with 27 powerful ingredients",
+    "description": "**Image:** herbal-potli.jpg | **SKU:** NGW022\n\n**Benefits:**\n- Supports joint, muscle, and back pain relief\n- Supports body relaxation\n- Supports stiffness, sprain, and flexibility improvement\n- Effective hot compress massage therapy\n- 100% herbal and natural formula\n- 27 powerful Ayurvedic ingredients\n\n**Key Ingredient Groups:**\n- Herbs & Leaves: Nirgundi, Neem leaves, Tulsi (Ram Tulasi), Rosemary, Neeli leaves, Tejpatta, Eucalyptus leaves, Sarna, Dashmool\n- Spices & Natural Heat: Haldi, Sonth (Shunthi), Kolai Mirch, Long, Dalchini, Jayphal, Elaichi, Ajwain, Apamarg\n- Seeds & Minerals: Alsi (Flaxseed), Kala Til, Sendha Namak (Pink Salt Crystal), Nadi Ki Ret\n- Aromatic & Therapeutic: Kapoor (Bhim Kapoor), Essential Oils (Eucalyptus/Peppermint), Korai Phool, Nagarmotha\n- Natural Heat Retainers: Chawal ki Bhusi, Gehu ki Bhusi\n\n**Features:** 100% Herbal & Natural, Natural Ingredients, No Side Effects, Safe & Trustworthy\n\n**Directions:** Heat and apply on affected area for hot compress massage therapy\n\n**Pack:** 1 Potli | **MRP:** ₹499\n\n---",
+    "ingredients": [
+      {
+        "name": "Herbs & Leaves: Nirgundi, Neem leaves, Tulsi (Ram Tulasi), Rosemary, Neeli leaves, Tejpatta, Eucalyptus leaves, Sarna, Dashmool"
+      },
+      {
+        "name": "Spices & Natural Heat: Haldi, Sonth (Shunthi), Kolai Mirch, Long, Dalchini, Jayphal, Elaichi, Ajwain, Apamarg"
+      },
+      {
+        "name": "Seeds & Minerals: Alsi (Flaxseed), Kala Til, Sendha Namak (Pink Salt Crystal), Nadi Ki Ret"
+      },
+      {
+        "name": "Aromatic & Therapeutic: Kapoor (Bhim Kapoor), Essential Oils (Eucalyptus/Peppermint), Korai Phool, Nagarmotha"
+      },
+      {
+        "name": "Natural Heat Retainers: Chawal ki Bhusi, Gehu ki Bhusi"
+      }
+    ],
+    "dosage": "",
+    "directions": "Heat and apply on affected area for hot compress massage therapy",
+    "benefits": [
+      "Supports joint, muscle, and back pain relief",
+      "Supports body relaxation",
+      "Supports stiffness, sprain, and flexibility improvement",
+      "Effective hot compress massage therapy",
+      "100% herbal and natural formula",
+      "27 powerful Ayurvedic ingredients"
+    ],
+    "indications": [
+      "Joint pain",
+      "Muscle pain",
+      "Back pain",
+      "Stiffness"
+    ],
+    "precautions": "",
+    "category": "6a6062b16afc65a9a33ba009",
+    "healthTags": [
+      "6a6062b16afc65a9a33ba00c",
+      "6a6062b16afc65a9a33ba00f",
+      "6a6062b56afc65a9a33ba04e",
+      "6a6062b66afc65a9a33ba057"
+    ],
+    "packSize": "1 Potli",
+    "form": "other",
+    "price": 499,
+    "stock": 0,
+    "lowStockThreshold": 5,
+    "hsnCode": "3004",
+    "gstRate": 12,
+    "isFeatured": false,
+    "status": "active",
+    "images": [],
+    "slug": "neelkanth-herbal-potli",
+    "createdAt": "2026-07-22T06:27:02.583Z",
+    "updatedAt": "2026-07-22T06:27:02.583Z",
+    "__v": 0
+  }
+]

@@ -1,0 +1,385 @@
+/* ── Page Hero ─────────────────────────────── */
+.about__hero {
+  background: var(--band);
+  padding: 3.5rem 0 3rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.about__hero-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.about__breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.about__breadcrumb a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.about__breadcrumb a:hover {
+  color: var(--primary);
+}
+
+.about__hero h1 {
+  font-family: var(--font-serif);
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: var(--primary-dark);
+  margin-bottom: 0.5rem;
+}
+
+.about__hero p {
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+/* ── Shared Section ───────────────────────── */
+.about__section {
+  padding: 5rem 0;
+}
+
+.about__section--alt {
+  background: var(--band);
+}
+
+.about__wrap {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.about__section-head {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.about__section-icon {
+  color: var(--primary);
+  margin-bottom: 0.75rem;
+}
+
+.about__section-head h2 {
+  font-family: var(--font-serif);
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--primary-dark);
+  margin-bottom: 1rem;
+}
+
+.about__section-head p {
+  font-size: 0.92rem;
+  color: var(--text);
+  line-height: 1.8;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ── Timeline ─────────────────────────────── */
+.about__timeline {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 2rem;
+}
+
+.about__timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--line);
+}
+
+.about__tl-item {
+  position: relative;
+  padding-bottom: 2.5rem;
+}
+
+.about__tl-item:last-child {
+  padding-bottom: 0;
+}
+
+.about__tl-item::before {
+  content: '';
+  position: absolute;
+  left: -2rem;
+  top: 0.35rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--primary);
+  transform: translateX(-4px);
+}
+
+.about__tl-year {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.4rem;
+  background: rgba(27, 67, 50, 0.08);
+  padding: 0.2rem 0.6rem;
+  border-radius: 2px;
+}
+
+.about__tl-item p {
+  font-size: 0.9rem;
+  color: var(--text);
+  line-height: 1.7;
+}
+
+/* ── Vision & Mission ─────────────────────── */
+.about__vm-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.about__vm-card {
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 2.5rem 2rem;
+  text-align: center;
+}
+
+.about__vm-card svg {
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.about__vm-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--primary-dark);
+  margin-bottom: 1rem;
+}
+
+.about__vm-card p {
+  font-size: 0.9rem;
+  color: var(--text);
+  line-height: 1.8;
+}
+
+/* ── Facility Image ───────────────────────── */
+.about__facility-img {
+  border-radius: 4px;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.about__facility-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* ── Director ─────────────────────────────── */
+.about__director {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 3.5rem;
+  align-items: start;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.about__director-photo {
+  border-radius: 4px;
+  overflow: hidden;
+  aspect-ratio: 1;
+}
+
+.about__director-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about__director-content {
+  position: relative;
+}
+
+.about__director-quote {
+  color: var(--primary);
+  opacity: 0.15;
+  margin-bottom: 1rem;
+}
+
+.about__director-content blockquote {
+  font-size: 0.95rem;
+  color: var(--text);
+  line-height: 1.85;
+  margin-bottom: 1.5rem;
+}
+
+.about__director-sig strong {
+  display: block;
+  font-size: 1rem;
+  color: var(--dark);
+  margin-bottom: 0.15rem;
+}
+
+.about__director-sig span {
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+/* ── Infrastructure Grid ──────────────────── */
+.about__infra-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.about__infra-card {
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 2rem 1.5rem;
+}
+
+.about__infra-icon {
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  background: rgba(27, 67, 50, 0.08);
+  border-radius: 4px;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.about__infra-card h3 {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 0.5rem;
+}
+
+.about__infra-card p {
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+/* ── Certifications ───────────────────────── */
+.about__certs-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 100%;
+}
+
+.about__cert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 2.5rem 2rem;
+}
+
+.about__cert-logo {
+  width: 80px;
+  height: 80px;
+}
+
+.about__cert-logo svg {
+  width: 100%;
+  height: 100%;
+  color: var(--primary-dark);
+  opacity: 0.65;
+}
+
+.about__cert span {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--dark);
+  text-align: center;
+}
+
+/* ── Awards ────────────────────────────────── */
+.about__awards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.about__award-card {
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.about__award-icon {
+  color: #c9a84c;
+  margin-bottom: 0.75rem;
+}
+
+.about__award-card h3 {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 0.25rem;
+}
+
+.about__award-year {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--primary);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.about__award-card p {
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+/* ── Responsive ───────────────────────────── */
+@media (max-width: 1024px) {
+  .about__infra-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 768px) {
+  .about__hero h1 { font-size: 1.7rem; }
+  .about__section { padding: 3.5rem 0; }
+  .about__section-head h2 { font-size: 1.5rem; }
+  .about__vm-grid { grid-template-columns: 1fr; }
+  .about__director { grid-template-columns: 1fr; }
+  .about__director-photo { max-width: 220px; margin: 0 auto; }
+  .about__infra-grid { grid-template-columns: 1fr; }
+  .about__awards-grid { grid-template-columns: 1fr; }
+  .about__certs-row { grid-template-columns: 1fr; gap: 1rem; }
+}

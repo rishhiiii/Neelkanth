@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --input-type=module -e ' *)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(MONGODB_URI=mongodb://x/y node --input-type=module -e ' *)",
+      "Bash(npm install:*)"
+    ]
+  }
+}

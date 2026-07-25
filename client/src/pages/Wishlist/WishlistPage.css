@@ -1,0 +1,24 @@
+.wish-page { padding: 2rem 0 4rem; min-height: 60vh; }
+.wish-page__wrap { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
+.wish-page__wrap h1 { font-size: 1.6rem; font-weight: 700; color: var(--dark); margin-bottom: 2rem; }
+.wish-page__empty { text-align: center; padding: 4rem 2rem; color: var(--muted); }
+.wish-page__empty p { margin: 1rem 0; font-size: 1.1rem; }
+.wish-page__btn { display: inline-block; padding: 0.7rem 2rem; background: var(--accent); color: white; border-radius: 4px; text-decoration: none; font-weight: 600; }
+
+.wish-page__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.5rem; }
+
+.wish-card { background: white; border: 1px solid var(--line); border-radius: 4px; overflow: hidden; }
+.wish-card__img { aspect-ratio: 1; overflow: hidden; position: relative; background: var(--band); }
+.wish-card__img img { width: 100%; height: 100%; object-fit: cover; }
+.wish-card__unavailable { position: absolute; top: 8px; left: 8px; font-size: 0.7rem; background: var(--sale); color: white; padding: 0.2rem 0.5rem; border-radius: 4px; font-weight: 600; }
+.wish-card__info { padding: 1rem; }
+.wish-card__name { font-weight: 600; color: var(--dark); text-decoration: none; display: block; margin-bottom: 0.3rem; }
+.wish-card__name:hover { color: var(--accent); }
+.wish-card__price { font-weight: 700; color: var(--accent); display: block; margin-bottom: 0.3rem; }
+.wish-card__stock { font-size: 0.8rem; color: var(--accent); font-weight: 600; }
+.wish-card__stock--out { color: var(--sale); }
+.wish-card__actions { display: flex; gap: 0.5rem; padding: 0 1rem 1rem; }
+.wish-card__move { flex: 1; display: flex; align-items: center; justify-content: center; gap: 0.4rem; padding: 0.5rem; background: var(--accent); color: white; border: none; border-radius: 4px; font-size: 0.8rem; font-weight: 600; cursor: pointer; }
+.wish-card__move:hover { background: var(--accent-dark); }
+.wish-card__remove { width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--line); border-radius: 4px; background: none; cursor: pointer; color: var(--muted); }
+.wish-card__remove:hover { color: var(--sale); border-color: var(--sale); }

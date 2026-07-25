@@ -1,0 +1,94 @@
+.concerns {
+  padding: 5rem 0;
+}
+
+.concerns__wrap {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.concerns__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.concerns__card {
+  background: var(--bg);
+  padding: 2.2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  transition: background 0.2s;
+}
+
+.concerns__card:hover {
+  background: var(--surface);
+}
+
+.concerns__icon {
+  color: var(--primary-dark);
+  margin-bottom: 1.4rem;
+}
+
+.concerns__card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--dark);
+  margin-bottom: 0.5rem;
+}
+
+.concerns__card p {
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.65;
+  margin-bottom: 0.5rem;
+}
+
+.concerns__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--primary-dark);
+  margin-top: auto;
+  padding-top: 0.8rem;
+  text-decoration: none;
+  transition: gap 0.2s;
+}
+
+.concerns__link:hover {
+  gap: 0.6rem;
+}
+
+/* Immunity — tall card spanning both rows */
+.concerns__card--featured {
+  grid-row: 1 / -1;
+  grid-column: 1;
+}
+
+@media (max-width: 900px) {
+  .concerns__grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  .concerns__card--featured {
+    grid-row: auto;
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 560px) {
+  .concerns__grid { grid-template-columns: 1fr; }
+  .concerns { padding: 3.5rem 0; }
+}
