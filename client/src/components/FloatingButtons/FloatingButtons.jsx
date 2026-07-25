@@ -10,7 +10,7 @@ function FloatingButtons() {
 
   return (
     <div className="floating-btns">
-      <
+      <a
         href={`https://wa.me/${WHATSAPP}?text=Hi%2C%20I%20have%20a%20query%20about%20your%20products.`}
         className="floating-btns__wa"
         target="_blank"

@@ -1,12 +1,13 @@
 {
-  "name": "neelkanth-pharmacies",
+  "name": "neelkanth-global-wellness",
   "version": "1.0.0",
   "private": true,
-  "description": "Neelkanth Pharmacies — Ayurvedic medicines ecommerce (monorepo)",
+  "description": "Neelkanth Global Wellness — Ayurvedic products ecommerce",
   "scripts": {
     "dev": "concurrently -n server,client -c green,blue \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
     "build": "npm run build --prefix client",
     "start": "npm start --prefix server",
+    "start:prod": "npm run build --prefix client && NODE_ENV=production npm start --prefix server",
     "seed:admin": "npm run seed:admin --prefix server",
     "install:all": "npm install --prefix server && npm install --prefix client"
   },

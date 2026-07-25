@@ -13,7 +13,7 @@ const blogPostSchema = new Schema(
       url: { type: String, trim: true },
       publicId: { type: String, trim: true },
     },
-    author: { type: String, trim: true, default: 'Neelkanth Pharmacies' },
+    author: { type: String, trim: true, default: 'Neelkanth Global Wellness' },
     tags: [{ type: String, trim: true }],
     isPublished: { type: Boolean, default: false },
     publishedAt: { type: Date },
@@ -22,7 +22,6 @@ const blogPostSchema = new Schema(
 );
 
 blogPostSchema.index({ isPublished: 1, publishedAt: -1 });
-blogPostSchema.index({ slug: 1 }, { unique: true });
 
 blogPostSchema.pre('validate', function (next) {
   if (this.isModified('title') || !this.slug) {
