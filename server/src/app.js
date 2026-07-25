@@ -33,10 +33,12 @@ function createApp() {
   const app = express();
 
   // Security headers + CORS
-  app.use(helmet());
+  app.use(helmet({ crossOriginResourcePolicy: { policy: 'cross-origin' } }));
   app.use(
     cors({
-      origin: env.corsOrigins,
+      origin: env.corsOrigins.length === 1 && env.corsOrigins[0] === '*'
+        ? true
+        : env.corsOrigins,
       credentials: true,
     })
   );
