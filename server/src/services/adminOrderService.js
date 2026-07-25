@@ -1,5 +1,6 @@
-import { Order, Product } from '../models/index.js';
+import { Order, Product, User } from '../models/index.js';
 import ApiError from '../utils/ApiError.js';
+import { sendOrderStatusUpdate } from './notificationService.js';
 
 const ALLOWED_TRANSITIONS = {
   pending: ['confirmed', 'cancelled'],
@@ -101,6 +102,12 @@ export async function updateStatus(orderId, { status, note, adminId }) {
   }
 
   await order.save();
+
+  const customer = await User.findById(order.user);
+  if (customer?.email) {
+    sendOrderStatusUpdate(customer.email, order, status).catch(() => {});
+  }
+
   return order;
 }
 

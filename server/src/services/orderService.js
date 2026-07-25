@@ -6,6 +6,7 @@ import logger from '../utils/logger.js';
 import * as phonepeService from './phonepeService.js';
 import { generateOtp, hashOtp, verifyOtp } from '../utils/otp.js';
 import { sendEmail } from '../utils/email.js';
+import { sendOrderConfirmation } from './notificationService.js';
 
 const SHIPPING_FREE_THRESHOLD = 1000;
 const SHIPPING_FEE = 160;
@@ -196,6 +197,11 @@ export async function placeOrder({ userId, paymentMethod, shippingAddress }) {
 
     await session.commitTransaction();
     session.endSession();
+
+    const user = await User.findById(userId);
+    if (user?.email) {
+      sendOrderConfirmation(user.email, order).catch(() => {});
+    }
 
     return order;
   } catch (err) {

@@ -17,6 +17,7 @@ import {
   OTP_MAX_ATTEMPTS,
 } from '../utils/otp.js';
 import { sendVerificationOtp, sendPasswordResetEmail } from '../utils/email.js';
+import { sendWelcome } from './notificationService.js';
 
 const BCRYPT_ROUNDS = 12;
 const MAX_FAILED_LOGINS = 5;
@@ -156,6 +157,8 @@ export async function verifyEmail({ email, otp }) {
   user.emailOtpExpiresAt = undefined;
   user.emailOtpAttempts = 0;
   await user.save();
+
+  sendWelcome(user.email, user.name).catch(() => {});
 
   return { message: 'Email verified successfully' };
 }
