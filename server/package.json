@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "node --watch src/server.js",
     "start": "node src/server.js",
+    "build": "npm install --prefix ../client && npm run build --prefix ../client",
     "seed:admin": "node src/scripts/seedAdmin.js",
     "import:catalogue": "node src/scripts/importCatalogue.js",
     "import:catalogue:run": "node src/scripts/importCatalogue.js --execute",
