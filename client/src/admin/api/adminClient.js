@@ -1,7 +1,9 @@
 import axios from 'axios';
 
+const API_BASE = import.meta.env.VITE_API_URL || 'https://neelkanth-1.onrender.com/api/v1';
+
 const adminApi = axios.create({
-  baseURL: '/api/v1',
+  baseURL: API_BASE,
   headers: { 'Content-Type': 'application/json' },
 });
 
@@ -49,7 +51,7 @@ adminApi.interceptors.response.use(
         const refreshToken = localStorage.getItem('adminRefreshToken');
         if (!refreshToken) throw new Error('No admin refresh token');
 
-        const { data } = await axios.post('/api/v1/admin/auth/refresh', { refreshToken });
+        const { data } = await axios.post(`${API_BASE}/admin/auth/refresh`, { refreshToken });
         const newAccess = data.data.accessToken;
         const newRefresh = data.data.refreshToken;
 
